@@ -1,0 +1,7 @@
+version: '3'
+services:
+  bot:
+    image: telegrambot
+    build:
+      context: .
+      dockerfile: Dockerfile
