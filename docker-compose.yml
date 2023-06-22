@@ -2,6 +2,7 @@ version: '3'
 services:
   bot:
     image: telegrambot
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
